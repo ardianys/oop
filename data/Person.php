@@ -1,12 +1,11 @@
 <?php
 
-define('JUMLAH_KAKI', 2);
-
 class Person {
+  
   var string $name;
-  var int $age = 25;
+  var int $age;
   var string $address;
-  var string $country = "Indonesia";
+  var string $country;
 
   const JUMLAH_KAKI = 2;
 
